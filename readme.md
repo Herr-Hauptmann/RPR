@@ -1,10 +1,24 @@
-# Razvoj programskih rješenja
+Univerzitet u Sarajevu
 
-U okviru kursa obrađuju se osnovni i napredni koncepti objektno orijentisanog programiranja. Obrađuje se i način kreiranje i dizajniranja korisničkog interfejsa, višenitnost, rad sa datotekama, rad sa grafičkim elementima. Sa stečenim znanjem studenti mogu dizajnirati i implementirati složenija programskih rješenja.
+Elektrotehnički fakultet Sarajevo
 
-Rješenja tutorijalskih, ispitnih i domaćih zadataka nalaze se na posebnim granama ovog repozitorija.
+Predmet: Razvoj programskih rješenja 2019/2020
 
-# Software solutions development
-The course covers basic and advanced concepts of object-oriented programming. The methods of creating and designing the user interface, multithreading, working with files, and working with graphic elements are also covered. With the acquired knowledge, students can design and implement more complex software solutions.
+# Tutorijal 5
+## Priprema za tutorijal
+* Kliknite na pozivnicu: https://classroom.github.com/a/pc1FuSdX - importujte vaš projekat na repozitorij koji je ovom pozivnicom kreiran.
+* Na osnovu class dijagrama isprogramirati preostale klase
+* Upoznati se sa funkcionalnim programiranjem i streamovima u Javi
 
-Solutions to tutorial, exam and homework assignments can be found on special branches of this repository.
+![Class dijagram](/class_diagram.png?raw=true "Class dijagram")
+
+## Zadatak 1
+U pripremljeni projekat dodati novi paket com.rpr.t5.util i kreirati pomoćnu klasu Kredit, te u istom paketu kreirati funkcionalni interface KreditnaSposobnost.
+KreditnaSposobnost sadrži funkciju provjeri koja prima Racun i vraća iznos kreditne sposobnosti korisnika banke.
+Klasa Kredit ima pomoćnu metodu dajKreditnuSposobnost koja prima funkciju KreditnaSposobnost i Korisnika, te na osnovu računa korisnika vrši poziv dobivene funkcije.
+## Zadatak 2
+Koristeći isključivo znanje o streamovima napisati drugu pomoćnu funkciju u klasi Kredit pod nazivom bezPrekoracenja koja na osnovu primljene liste korisnika vrši ispis svih korisnika koji nemaju prekoračenje računa (tj. imaju iznos računa veći od nule).
+## Zadatak 3
+Koristeći isključivo znanje o streamovima napisati treću pomoćnu funkciju u klasi Kredit pod nazivom odobriPrekoracenje koja na osnovu primljene liste korisnika vrši odobrenje prekoračenja, ako je stanje računa korisnika veće od 10 000.
+## Zadatak 4
+Kreirati JUnit5 unit testove za klasu Kredit. 
