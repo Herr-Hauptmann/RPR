@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kuhar.kontroleri.GlavnaController">
+   <center>
+      <ScrollPane fx:id="scrolpane" BorderPane.alignment="CENTER">
+         <content>
+            <TilePane fx:id="sadrzaj" alignment="CENTER" hgap="10.0" nodeOrientation="LEFT_TO_RIGHT" prefColumns="3" prefRows="10" prefTileHeight="300.0" prefTileWidth="400.0" vgap="10.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" TilePane.alignment="CENTER">
+                     <children>
+                        <ImageView fx:id="slika" fitHeight="300.0" fitWidth="400.0" onMouseClicked="#otvoriRecept" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/grah.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <Label text="NazivSlike" />
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </TilePane>
+         </content>
+      </ScrollPane>
+   </center>
+   <right>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="dodajReceptBtn" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#dodajRecept" text="Dodaj recept">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="adminBtn" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#otvoriAdminKonzolu" text="Upravljanje korisnicima">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="kategorijeBtn" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#otvoriKategorije" text="Upravljanje kategorijama">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin></Button>
+            <Button fx:id="logoutBtn" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#logout" text="Log out">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="loginBtn" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#otvoriLogin" text="Log in">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin></Button>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+      </VBox>
+   </right>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
