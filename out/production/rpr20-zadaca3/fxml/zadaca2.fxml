@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rpr.Controller">
+   <stylesheets>
+       <URL value="@/style.css" />
+   </stylesheets>
+    <children>
+      <HBox GridPane.columnSpan="4">
+         <children>
+            <TextField fx:id="fldText" alignment="CENTER_RIGHT" editable="false" HBox.hgrow="NEVER">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </TextField>
+            <Slider fx:id="sliderStudents" max="15.0" min="5.0" showTickLabels="true" showTickMarks="true" value="5.0" HBox.hgrow="NEVER">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Slider>
+            <ChoiceBox fx:id="choiceColor" HBox.hgrow="NEVER">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ChoiceBox>
+            <Button fx:id="btnUnos" mnemonicParsing="false" text="Unos studenta" HBox.hgrow="NEVER">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <ListView fx:id="lvStudents" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <GridPane hgap="3.0" vgap="3.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="NEVER" />
+          <ColumnConstraints hgrow="NEVER" />
+            <ColumnConstraints hgrow="NEVER" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints vgrow="NEVER" />
+          <RowConstraints vgrow="NEVER" />
+          <RowConstraints vgrow="NEVER" />
+            <RowConstraints vgrow="NEVER" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="button7" minHeight="45.0" minWidth="60.0" mnemonicParsing="false" onAction="#button7Clicked" text="7" />
+            <Button fx:id="button4" minHeight="45.0" minWidth="60.0" mnemonicParsing="false" onAction="#button4Clicked" text="4" GridPane.rowIndex="1" />
+            <Button fx:id="button8" minHeight="45.0" minWidth="60.0" mnemonicParsing="false" onAction="#button8Clicked" text="8" GridPane.columnIndex="1" />
+            <Button fx:id="button5" minHeight="45.0" minWidth="60.0" mnemonicParsing="false" onAction="#button5Clicked" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="button1" minHeight="45.0" minWidth="60.0" mnemonicParsing="false" onAction="#button1Clicked" text="1" GridPane.rowIndex="2" />
+            <Button fx:id="button2" minHeight="45.0" minWidth="60.0" mnemonicParsing="false" onAction="#button2Clicked" text="2" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="button9" minHeight="45.0" minWidth="60.0" mnemonicParsing="false" onAction="#button9Clicked" text="9" GridPane.columnIndex="2" />
+            <Button fx:id="button6" minHeight="45.0" minWidth="60.0" mnemonicParsing="false" onAction="#button6Clicked" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="button3" minHeight="45.0" minWidth="60.0" mnemonicParsing="false" onAction="#button3Clicked" text="3" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="button0" minHeight="45.0" minWidth="60.0" mnemonicParsing="false" onAction="#button0Clicked" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </GridPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints hgrow="SOMETIMES" />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints vgrow="SOMETIMES" />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

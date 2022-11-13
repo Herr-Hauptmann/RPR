@@ -1,0 +1,18 @@
+.buttonRed{
+    -fx-background-color: red;
+}
+.buttonGreen{
+    -fx-background-color: green;
+}
+
+.buttonBlue{
+    -fx-background-color: blue;
+}
+
+.crveniProgress{
+    -fx-accent: red;
+}
+
+.zeleniProgress{
+    -fx-accent: green;
+}
