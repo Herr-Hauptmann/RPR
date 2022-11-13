@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ba.unsa.etf.rpr.zadaca2</OriginalElement>
+  <nodes>
+    <node x="197.5685214375785" y="1374.0">ba.unsa.etf.rpr.zadaca2.Fakultet</node>
+    <node x="657.9409494535518" y="718.0">ba.unsa.etf.rpr.zadaca2.IzborniPredmet</node>
+    <node x="618.6492827868851" y="126.0">ba.unsa.etf.rpr.zadaca2.Profesor</node>
+    <node x="0.0" y="1060.0">ba.unsa.etf.rpr.zadaca2.Student</node>
+    <node x="354.8654835715288" y="1103.5">ba.unsa.etf.rpr.zadaca2.Ciklus</node>
+    <node x="414.1659494535518" y="384.0">ba.unsa.etf.rpr.zadaca2.Predmet</node>
+    <node x="473.2" y="1929.0">ba.unsa.etf.rpr.zadaca2.Main</node>
+    <node x="377.94094945355175" y="822.0">ba.unsa.etf.rpr.zadaca2.Semestar</node>
+    <node x="979.9409494535518" y="718.0">ba.unsa.etf.rpr.zadaca2.ObavezniPredmet</node>
+    <node x="613.8992827868851" y="0.0">ba.unsa.etf.rpr.zadaca2.Osoba</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Main" target="ba.unsa.etf.rpr.zadaca2.Predmet">
+      <point x="42.46153846153845" y="-181.5" />
+      <point x="653.6615384615384" y="1909.0" />
+      <point x="647.4409494535518" y="1909.0" />
+      <point x="647.4409494535518" y="698.0" />
+      <point x="560.4659494535517" y="698.0" />
+      <point x="13.299999999999955" y="127.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Fakultet" target="ba.unsa.etf.rpr.zadaca2.Semestar">
+      <point x="35.22222222222217" y="-237.5" />
+      <point x="391.2907436598007" y="1344.0" />
+      <point x="344.3654835715288" y="1344.0" />
+      <point x="344.3654835715288" y="1030.0" />
+      <point x="403.84094945355173" y="1030.0" />
+      <point x="-103.60000000000002" y="94.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.IzborniPredmet" target="ba.unsa.etf.rpr.zadaca2.Predmet">
+      <point x="-100.66666666666674" y="-27.0" />
+      <point x="708.274282786885" y="688.0" />
+      <point x="587.0659494535518" y="688.0" />
+      <point x="39.89999999999998" y="127.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Student" target="ba.unsa.etf.rpr.zadaca2.Predmet">
+      <point x="96.66666666666669" y="-127.0" />
+      <point x="241.66666666666669" y="1040.0" />
+      <point x="193.15879921535628" y="1040.0" />
+      <point x="193.15879921535628" y="668.0" />
+      <point x="454.06594945355175" y="668.0" />
+      <point x="-93.10000000000002" y="127.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Main" target="ba.unsa.etf.rpr.zadaca2.ObavezniPredmet">
+      <point x="84.9230769230769" y="-181.5" />
+      <point x="696.123076923077" y="1889.0" />
+      <point x="1216.1909494535516" y="1889.0" />
+      <point x="78.75" y="27.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.ObavezniPredmet" target="ba.unsa.etf.rpr.zadaca2.Profesor">
+      <point x="105.0" y="-27.0" />
+      <point x="1242.4409494535516" y="698.0" />
+      <point x="1230.3117705268317" y="698.0" />
+      <point x="1230.3117705268317" y="354.0" />
+      <point x="755.4617827868851" y="354.0" />
+      <point x="37.3125" y="94.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Semestar" target="ba.unsa.etf.rpr.zadaca2.ObavezniPredmet">
+      <point x="97.125" y="-94.0" />
+      <point x="604.5659494535518" y="802.0" />
+      <point x="1058.6909494535516" y="802.0" />
+      <point x="-78.75" y="27.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Student" target="ba.unsa.etf.rpr.zadaca2.Osoba">
+      <point x="-96.66666666666674" y="-127.0" />
+      <point x="48.33333333333326" y="1040.0" />
+      <point x="134.0" y="1040.0" />
+      <point x="134.0" y="101.0" />
+      <point x="632.0659494535518" y="101.0" />
+      <point x="-36.33333333333337" y="38.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Main" target="ba.unsa.etf.rpr.zadaca2.Semestar">
+      <point x="0.0" y="-181.5" />
+      <point x="611.2" y="1909.0" />
+      <point x="598.0659494535518" y="1909.0" />
+      <point x="598.0659494535518" y="1040.0" />
+      <point x="559.2409494535518" y="1040.0" />
+      <point x="51.80000000000007" y="94.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Profesor" target="ba.unsa.etf.rpr.zadaca2.Osoba">
+      <point x="49.75" y="-94.0" />
+      <point x="767.8992827868851" y="101.0" />
+      <point x="704.7326161202185" y="101.0" />
+      <point x="36.33333333333337" y="38.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Main" target="ba.unsa.etf.rpr.zadaca2.Fakultet">
+      <point x="-63.69230769230762" y="-181.5" />
+      <point x="547.5076923076924" y="1879.0" />
+      <point x="356.0685214375785" y="1879.0" />
+      <point x="0.0" y="237.5" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Semestar" target="ba.unsa.etf.rpr.zadaca2.Predmet">
+      <point x="-32.375" y="-94.0" />
+      <point x="475.06594945355175" y="802.0" />
+      <point x="460.9784494535518" y="802.0" />
+      <point x="460.9784494535518" y="698.0" />
+      <point x="533.8659494535517" y="698.0" />
+      <point x="-13.300000000000068" y="127.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Fakultet" target="ba.unsa.etf.rpr.zadaca2.Predmet">
+      <point x="0.0" y="-237.5" />
+      <point x="356.0685214375785" y="1354.0" />
+      <point x="333.3654835715288" y="1354.0" />
+      <point x="333.3654835715288" y="678.0" />
+      <point x="480.6659494535518" y="678.0" />
+      <point x="-66.5" y="127.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.ObavezniPredmet" target="ba.unsa.etf.rpr.zadaca2.Predmet">
+      <point x="-105.0" y="-27.0" />
+      <point x="1032.4409494535516" y="668.0" />
+      <point x="640.2659494535517" y="668.0" />
+      <point x="93.09999999999991" y="127.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.IzborniPredmet" target="ba.unsa.etf.rpr.zadaca2.Profesor">
+      <point x="100.66666666666671" y="-27.0" />
+      <point x="909.6076161202185" y="364.0" />
+      <point x="730.5867827868851" y="364.0" />
+      <point x="12.4375" y="94.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Main" target="ba.unsa.etf.rpr.zadaca2.Student">
+      <point x="-127.38461538461536" y="-181.5" />
+      <point x="483.81538461538463" y="1909.0" />
+      <point x="79.4867705268316" y="1909.0" />
+      <point x="79.4867705268316" y="1354.0" />
+      <point x="36.25" y="1354.0" />
+      <point x="-108.75" y="127.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Fakultet" target="ba.unsa.etf.rpr.zadaca2.Profesor">
+      <point x="-70.44444444444446" y="-237.5" />
+      <point x="285.62407699313405" y="1354.0" />
+      <point x="300.5" y="1354.0" />
+      <point x="300.5" y="334.0" />
+      <point x="631.0867827868851" y="334.0" />
+      <point x="-87.0625" y="94.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Semestar" target="ba.unsa.etf.rpr.zadaca2.IzborniPredmet">
+      <point x="32.375" y="-94.0" />
+      <point x="539.8159494535518" y="792.0" />
+      <point x="733.4409494535518" y="792.0" />
+      <point x="-75.5" y="27.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Ciklus" target="ba.unsa.etf.rpr.zadaca2.Semestar">
+      <point x="52.75" y="-83.5" />
+      <point x="513.1154835715288" y="1040.0" />
+      <point x="507.44094945355175" y="1040.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Main" target="ba.unsa.etf.rpr.zadaca2.Ciklus">
+      <point x="-21.230769230769283" y="-181.5" />
+      <point x="589.9692307692308" y="1909.0" />
+      <point x="579.788171675774" y="1909.0" />
+      <point x="579.788171675774" y="1354.0" />
+      <point x="539.4904835715288" y="1354.0" />
+      <point x="79.125" y="83.5" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Fakultet" target="ba.unsa.etf.rpr.zadaca2.Student">
+      <point x="-105.66666666666674" y="-237.5" />
+      <point x="250.40185477091177" y="1354.0" />
+      <point x="253.75" y="1354.0" />
+      <point x="108.75" y="127.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Main" target="ba.unsa.etf.rpr.zadaca2.Profesor">
+      <point x="106.15384615384619" y="-181.5" />
+      <point x="717.3538461538462" y="1899.0" />
+      <point x="1305.4409494535519" y="1899.0" />
+      <point x="1305.4409494535519" y="344.0" />
+      <point x="780.3367827868851" y="344.0" />
+      <point x="62.1875" y="94.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Main" target="ba.unsa.etf.rpr.zadaca2.IzborniPredmet">
+      <point x="63.692307692307736" y="-181.5" />
+      <point x="674.8923076923077" y="1879.0" />
+      <point x="884.4409494535518" y="1879.0" />
+      <point x="75.5" y="27.0" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Fakultet" target="ba.unsa.etf.rpr.zadaca2.Ciklus">
+      <point x="70.44444444444446" y="-237.5" />
+      <point x="426.51296588202297" y="1334.0" />
+      <point x="381.2404835715288" y="1334.0" />
+      <point x="-79.125" y="83.5" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.zadaca2.Predmet" target="ba.unsa.etf.rpr.zadaca2.Profesor">
+      <point x="-66.5" y="-127.0" />
+      <point x="480.6659494535518" y="354.0" />
+      <point x="680.8367827868851" y="354.0" />
+      <point x="-37.3125" y="94.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5676963812886142" x="671.4999999999998" y="314.6859452736319" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
