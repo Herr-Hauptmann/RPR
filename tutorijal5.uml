@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ba.unsa.etf.rpr.tutorijal5</OriginalElement>
+  <nodes>
+    <node x="180.0" y="171.0">ba.unsa.etf.rpr.tutorijal5.ObavezniPredmet</node>
+    <node x="0.0" y="479.0">ba.unsa.etf.rpr.tutorijal5.Main</node>
+    <node x="0.0" y="171.0">ba.unsa.etf.rpr.tutorijal5.IzborniPredmet</node>
+    <node x="276.0" y="246.0">ba.unsa.etf.rpr.tutorijal5.Student</node>
+    <node x="0.0" y="246.0">ba.unsa.etf.rpr.tutorijal5.Semestar</node>
+    <node x="99.5" y="0.0">ba.unsa.etf.rpr.tutorijal5.Predmet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ba.unsa.etf.rpr.tutorijal5.IzborniPredmet" target="ba.unsa.etf.rpr.tutorijal5.Predmet">
+      <point x="0.0" y="-15.0" />
+      <point x="80.0" y="146.0" />
+      <point x="135.75" y="146.0" />
+      <point x="-36.25" y="60.5" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.tutorijal5.ObavezniPredmet" target="ba.unsa.etf.rpr.tutorijal5.Predmet">
+      <point x="0.0" y="-15.0" />
+      <point x="264.0" y="146.0" />
+      <point x="208.25" y="146.0" />
+      <point x="36.25" y="60.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="174.0" y="266.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
