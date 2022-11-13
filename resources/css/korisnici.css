@@ -1,0 +1,18 @@
+.poljeIspravno {
+   -fx-control-inner-background: greenyellow;
+}
+.poljeNijeIspravno {
+   -fx-control-inner-background: lightpink;
+}
+#printanjeMeni .label{
+   -fx-graphic: url("/img/printaj1.png");
+}
+#printanjeMeni .accelerator-text{
+   -fx-graphic: none;
+}
+#sacuvajMeni .label{
+   -fx-graphic: url("/img/sacuvaj1.png");
+}
+#sacuvajMeni .accelerator-text{
+   -fx-graphic: none;
+}
